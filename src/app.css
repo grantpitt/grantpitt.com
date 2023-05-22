@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-neutral-900;
+  }
+  h1 {
+    @apply text-3xl font-semibold;
+  }
+  h2 {
+    @apply text-2xl font-medium;
+  }
+  h3 {
+    @apply text-xl font-medium;
+  }
+  * {
+    @apply box-border;
+  }
+}
